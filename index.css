@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body {
+    background-image: url(360_F_587641642_GnVhXpvkKtqMWtAutjqq5gMQznlOwOh7.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+    background-attachment: fixed;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+.logo {
+    text-decoration: none;
+    color: #6e8aed;
+    font-size: larger;
+    font-weight: 600;
+    
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a {
+    text-decoration: none;
+    margin:20px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #99affe;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li {
+    transition: 0.5s;
+}
+li:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+#button {
+    background-color: #8ba3fb;
+    border-radius: 20%;
+    color: #000;
+    padding: 5px;
+    border: 2px solid #0314ae;
+
+}
+h1 {
+    text-align: center;
+    color: #044056;
+    margin-top: 10px;
+    transition: text-shadow 0.6s;
+    font-size: 100px;
+    text-shadow: 5px 5px 5px #030119 ;
+
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 900px;
+    margin-top: 100px;
+    width: 500px;
+}
+.para button {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #044056;
+    color: white;
+    transition: 0.5s;
+}
+.para p {
+    font-weight: bold;
+}
+.para button:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+main {
+    margin-bottom: 50px;
+
+}
+
+footer {
+    border-top:5px solid #6e8aed;
+}
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding:20px;
+}
+footer a {
+    margin: 20px;
+}
+footer a img {
+    box-shadow: 3px 3px 3px rgb(226, 6, 215);
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+} 
+footer p {
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #830557;
+    margin: 30px;
+}
+span {
+    color: #256901e5;
+    font-style: oblique;
+    margin: 10px;
+}
+
+
